@@ -1,0 +1,39 @@
+.container {
+    border: 1px solid black;
+    height: 70px;
+    width: 700px;
+    display: flex;
+}
+
+.px {
+    height: 70px;
+    width: 20px;
+    background-color: blue;
+}
+
+.rest {
+    width: calc(100% - 20px);
+    height: 70px;
+    background-color: red;
+}
+
+.exercise-wrapper {
+    width: 40%;
+    margin: 50px auto;
+    border: 2px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .inner {
+    display: flex;
+  }
+  
+  .inner > div {
+    /* flex: 1; */
+    width: calc(100% / 3);
+    height: 100px;
+    background-color: #90caf9;
+    border: 1px solid black;
+  }
+  
